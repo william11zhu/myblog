@@ -2,7 +2,7 @@
 lang: zh-CN
 home: true
 title: 首页
-heroImage: https://vuejs.press/images/hero.png
+heroImage: /images/z0@2x.png
 actions:
   - text: Get Started
     link: /get-started.html
