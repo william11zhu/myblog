@@ -9,7 +9,8 @@ export default defineUserConfig({
   description: '我的博客',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/z2@2x.png',
+    logoDark: '/images/z0@2x.png',
     navbar: ['/', '/get-started'],
   }),
 
