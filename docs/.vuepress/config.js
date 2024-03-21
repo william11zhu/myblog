@@ -23,7 +23,7 @@ export default defineUserConfig({
                 children: [
                     {
                         text: '数学',
-                        link: '/math/'
+                        link: '/math/math.md'
                     }
                 ],
             }
