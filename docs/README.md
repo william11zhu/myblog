@@ -5,8 +5,8 @@ title: 首页
 heroImage: /images/z2@2x.png
 heroImageDark: /images/z0@2x.png
 actions:
-  - text: Get Started
-    link: /get-started.html
+  - text: 开始阅读
+    link: /main.html
     type: primary
 
   - text: Introduction
