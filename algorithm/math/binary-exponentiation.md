@@ -388,7 +388,7 @@ int pow1[65536], pow2[65536];
     }
     
     int query(int pows) { return 1LL * pow1[pows & 65535] * pow2[pows >> 16]; }
-    ```
+```
 
 ## 习题
 
@@ -405,4 +405,5 @@ int pow1[65536], pow2[65536];
 
 ## 参考资料与注释
 
-[^note1]: 参见 [C 语言小数表示法 - 维基百科](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
+- 参见 [C 语言小数表示法 - 维基百科](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
+- 参见 [快速幂算法 超详细教程](https://blog.csdn.net/m0_52072919/article/details/116400820)
