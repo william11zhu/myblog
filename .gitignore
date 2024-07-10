@@ -3,4 +3,3 @@
 .temp
 node_modules
 config.js.*.mjs
-/package-lock.json
