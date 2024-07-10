@@ -18,18 +18,43 @@ export default defineUserConfig({
                 link: '/',
             },
             {
+                text: 'Java基础',
+                prefix: '/java/',
+                children: [
+                    // {
+                    //     text: '数学',
+                    //     link: 'math/'
+                    // },
+                    // {
+                    //     text: '链表',
+                    //     link: 'list/'
+                    // }
+                ],
+            },
+            {
                 text: '数据结构与算法',
                 prefix: '/algorithm/',
-                activeMatch: '^/algorithm/',
                 children: [
                     {
                         text: '数学',
-                        link: 'math/math.md'
+                        link: 'math/'
+                    },
+                    {
+                        text: '链表',
+                        link: 'list/'
                     }
                 ],
             }
         ],
         sidebar: [
+            {
+                text: 'Java基础',
+                prefix: '/java/',
+                link: '/java/',
+                children: [
+
+                ],
+            },
             {
                 text: '数据结构与算法',
                 prefix: '/algorithm/',
@@ -37,11 +62,26 @@ export default defineUserConfig({
                     {
                         text: '数学',
                         prefix: 'math/',
-                        link: 'math/math.md',
+                        link: 'math/',
                         children: [
                             {
                                 text: '快速幂',
-                                link: 'binary-exponentiation/binary-exponentiation.md',
+                                link: 'binary-exponentiation.md',
+                            }
+                        ],
+                    },
+                    {
+                        text: '链表',
+                        prefix: 'list/',
+                        link: 'list/',
+                        children: [
+                            {
+                                text: '单链表',
+                                link: 'single.md',
+                            },
+                            {
+                                text: '双链表',
+                                link: 'double.md',
                             }
                         ],
                     }

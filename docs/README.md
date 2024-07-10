@@ -9,25 +9,26 @@ actions:
     link: /main.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: vuepress 文档
+    link: https://vuejs.press/zh/guide/introduction.html
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
-
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+  - title: 计算机基础
+    details: 计算机基础、计算机网络、操作系统、Linux
+  - title: 数据结构与算法
+    details: 数据结构与算法
+  - title: Java基础
+    details: Java基础知识
+  - title: 常用框架
+    details: Spring 全家桶、微服务、分布式、大数据
+  - title: 数据库
+    details: MySQL、Redis、MongoDB、NoSQL
+  - title: 设计模式
+    details: SOLID设计原则、23种设计模式
+  - title: 项目管理工具
+    details: Maven、Git、Jenkins、Docker、K8s
+  - title: AI与大模型
+    details: 大模型
+footer: Copyright © 2024-present william11zhu
 ---
-
-这是我的首页。。。。。。
