@@ -20,10 +20,11 @@ export default defineUserConfig({
             {
                 text: '数据结构与算法',
                 prefix: '/algorithm/',
+                activeMatch: '^/algorithm/',
                 children: [
                     {
                         text: '数学',
-                        link: '/math/math.md'
+                        link: 'math/math.md'
                     }
                 ],
             }
@@ -31,15 +32,16 @@ export default defineUserConfig({
         sidebar: [
             {
                 text: '数据结构与算法',
-                link: '/algorithm/',
+                prefix: '/algorithm/',
                 children: [
                     {
                         text: '数学',
-                        link: '/math/',
+                        prefix: 'math/',
+                        link: 'math/math.md',
                         children: [
                             {
                                 text: '快速幂',
-                                link: '/binary-exponentiation.md',
+                                link: 'binary-exponentiation/binary-exponentiation.md',
                             }
                         ],
                     }

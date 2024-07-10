@@ -2,7 +2,6 @@
 lang: zh-CN
 title: 快速幂
 
-
 ---
 ### 快速幂
 
