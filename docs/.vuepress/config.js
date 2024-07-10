@@ -28,24 +28,24 @@ export default defineUserConfig({
                 ],
             }
         ],
-        // sidebar: [
-        //     {
-        //         text: '数据结构与算法',
-        //         link: '/algorithm/',
-        //         children: [
-        //             {
-        //                 text: '数学',
-        //                 link: '/math/',
-        //                 children: [
-        //                     {
-        //                         text: '快速幂',
-        //                         link: '/binary-exponentiation.md',
-        //                     }
-        //                 ],
-        //             }
-        //         ],
-        //     }
-        // ],
+        sidebar: [
+            {
+                text: '数据结构与算法',
+                link: '/algorithm/',
+                children: [
+                    {
+                        text: '数学',
+                        link: '/math/',
+                        children: [
+                            {
+                                text: '快速幂',
+                                link: '/binary-exponentiation.md',
+                            }
+                        ],
+                    }
+                ],
+            }
+        ],
     }),
 
     bundler: viteBundler(),
