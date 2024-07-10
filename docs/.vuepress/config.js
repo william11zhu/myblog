@@ -19,7 +19,7 @@ export default defineUserConfig({
             },
             {
                 text: '数据结构与算法',
-                link: '/algorithm/',
+                prefix: '/algorithm/',
                 children: [
                     {
                         text: '数学',
