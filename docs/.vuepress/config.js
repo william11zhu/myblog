@@ -102,7 +102,7 @@ export default defineUserConfig({
                 prefix: '/tools/',
                 children: [
                     {
-                        text: '数学',
+                        text: 'Nginx',
                         prefix: 'nginx/',
                         link: 'nginx/',
                         children: [
