@@ -44,6 +44,16 @@ export default defineUserConfig({
                         link: 'list/'
                     }
                 ],
+            },
+            {
+                text: '工程化工具',
+                prefix: '/tools/',
+                children: [
+                    {
+                        text: 'Nginx',
+                        link: 'nginx/'
+                    }
+                ],
             }
         ],
         sidebar: [
@@ -86,7 +96,15 @@ export default defineUserConfig({
                         ],
                     }
                 ],
-            }
+            },
+            {
+                text: '工程化工具',
+                prefix: '/nginx/',
+                link: '/nginx/',
+                children: [
+
+                ],
+            },
         ],
     }),
 

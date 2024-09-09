@@ -27,7 +27,7 @@ features:
   - title: 设计模式
     details: SOLID设计原则、23种设计模式
   - title: 项目管理工具
-    details: Maven、Git、Jenkins、Docker、K8s
+    details: Maven、Git、Jenkins、Docker、K8s、Nginx
   - title: 前端
     details: Vue、Uniapp
   - title: AI与大模型
