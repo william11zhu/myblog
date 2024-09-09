@@ -99,10 +99,19 @@ export default defineUserConfig({
             },
             {
                 text: '工程化工具',
-                prefix: '/nginx/',
-                link: '/nginx/',
+                prefix: '/tools/',
                 children: [
-
+                    {
+                        text: '数学',
+                        prefix: 'nginx/',
+                        link: 'nginx/',
+                        children: [
+                            {
+                                text: 'nginx 使用http代理https',
+                                link: 'proxy.md',
+                            }
+                        ],
+                    },
                 ],
             },
         ],
