@@ -5,7 +5,11 @@ export default hopeTheme({
 
     logo: '/images/z2@2x.png',
     logoDark: '/images/z0@2x.png',
-        navbar: [
+    docsDir: "docs",
+    plugins:{
+        blog: true
+    },
+    navbar: [
         {
             text: '首页',
             link: '/',

@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      vuepress-theme-hope:
-        specifier: 2.0.0-rc.88
-        version: 2.0.0-rc.88(@vuepress/plugin-prismjs@2.0.0-rc.104(@vueuse/core@13.2.0(vue@3.5.14))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14)))(markdown-it@14.1.0)(sass-embedded@1.88.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.23
@@ -24,6 +20,9 @@ importers:
       vuepress:
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14)
+      vuepress-theme-hope:
+        specifier: 2.0.0-rc.88
+        version: 2.0.0-rc.88(markdown-it@14.1.0)(sass-embedded@1.88.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
 
 packages:
 
@@ -865,11 +864,6 @@ packages:
     peerDependencies:
       vuepress: 2.0.0-rc.23
 
-  '@vuepress/plugin-prismjs@2.0.0-rc.104':
-    resolution: {integrity: sha512-FRduayWLyYhpAl4FGwHRlY3XblqHCwPSBHSzjMBWHiwdarxYmgft9W9AuKcTG1NK11Bu9D71ZpmuN4ehSSXySA==}
-    peerDependencies:
-      vuepress: 2.0.0-rc.23
-
   '@vuepress/plugin-reading-time@2.0.0-rc.104':
     resolution: {integrity: sha512-5podLkwt9uJZy4rikwc2FP6R2ObWS9t73sUi0XBTUlAmv0fh55kXDY0bbyiOv0odlWwrmq48O2si3hggFZVdGA==}
     peerDependencies:
@@ -1545,10 +1539,6 @@ packages:
   postcss@8.5.3:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
-
-  prismjs@1.30.0:
-    resolution: {integrity: sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==}
-    engines: {node: '>=6'}
 
   property-information@7.1.0:
     resolution: {integrity: sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==}
@@ -3030,17 +3020,6 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@vuepress/plugin-prismjs@2.0.0-rc.104(@vueuse/core@13.2.0(vue@3.5.14))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))':
-    dependencies:
-      '@vuepress/helper': 2.0.0-rc.104(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
-      '@vuepress/highlighter-helper': 2.0.0-rc.103(@vueuse/core@13.2.0(vue@3.5.14))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
-      prismjs: 1.30.0
-      vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14)
-    transitivePeerDependencies:
-      - '@vueuse/core'
-      - typescript
-    optional: true
-
   '@vuepress/plugin-reading-time@2.0.0-rc.104(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))':
     dependencies:
       '@vuepress/helper': 2.0.0-rc.104(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
@@ -3765,9 +3744,6 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prismjs@1.30.0:
-    optional: true
-
   property-information@7.1.0: {}
 
   punycode.js@2.3.1: {}
@@ -4197,7 +4173,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.88(@vuepress/plugin-prismjs@2.0.0-rc.104(@vueuse/core@13.2.0(vue@3.5.14))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14)))(markdown-it@14.1.0)(sass-embedded@1.88.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14)):
+  vuepress-theme-hope@2.0.0-rc.88(markdown-it@14.1.0)(sass-embedded@1.88.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14)):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.104(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.103(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
@@ -4238,7 +4214,6 @@ snapshots:
       vuepress-plugin-md-enhance: 2.0.0-rc.88(markdown-it@14.1.0)(sass-embedded@1.88.0)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
       vuepress-shared: 2.0.0-rc.88(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
     optionalDependencies:
-      '@vuepress/plugin-prismjs': 2.0.0-rc.104(@vueuse/core@13.2.0(vue@3.5.14))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.18)(sass-embedded@1.88.0))(vue@3.5.14))
       sass-embedded: 1.88.0
     transitivePeerDependencies:
       - '@vue/repl'
