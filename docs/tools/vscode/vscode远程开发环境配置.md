@@ -13,7 +13,7 @@ title: VsCode远程开发环境配置
 2. ‌**可选扩展**‌
     
     - Python 开发可安装相关调试插件，基本插件包括： 
-    ![[VSCode 远程开发配置.png]]
+    ![VSCode 远程开发配置](<VSCode 远程开发配置/VSCode 远程开发配置.png>)
 ---
 
 ### 二、配置 SSH 连接
@@ -61,5 +61,6 @@ title: VsCode远程开发环境配置
 
 - ‌**SSH 服务未运行**‌：远程服务器需安装并启动 SSH 服务（如 Ubuntu 执行 `sudo apt install openssh-server` 和 `service ssh status`）‌。
 - ‌**密钥权限错误**‌：确保本地私钥文件权限为 `600`（命令：`chmod 600 ~/.ssh/id_rsa`）
-- **远程debug不生效**：查看远程.vscode-server目录是否正常安装，修改.vscode-server在远程服务器上的安装目录。![[4e4acbf47d7bbecbdfa6d183170625e.png]]
-![[VSCode 远程开发配置 1.png]]
+- **远程debug不生效**：查看远程.vscode-server目录是否正常安装，修改.vscode-server在远程服务器上的安装目录。
+![alt text](<VSCode 远程开发配置/4e4acbf47d7bbecbdfa6d183170625e.png>)
+![alt text](<VSCode 远程开发配置/VSCode 远程开发配置 1.png>)
