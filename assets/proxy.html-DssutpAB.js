@@ -1,4 +1,4 @@
-import{_ as s,c as e,o as n,e as a}from"./app-C6TAOd4f.js";const l={},i=a(`<p>nginx 反向代理 代理模式，使用http代理https，并且更换域名，且在地址栏中不显示老的域名 配置如下：</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre class="language-text"><code><span class="line">server {</span>
+import{_ as s,c as e,o as n,e as a}from"./app-CknDHqI9.js";const l={},i=a(`<p>nginx 反向代理 代理模式，使用http代理https，并且更换域名，且在地址栏中不显示老的域名 配置如下：</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre class="language-text"><code><span class="line">server {</span>
 <span class="line">       listen 80;</span>
 <span class="line">       server_name wscrm.ruiheng.net.cn;</span>
 <span class="line">       include /etc/nginx/default.d/*.conf;</span>
