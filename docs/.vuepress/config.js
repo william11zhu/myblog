@@ -52,6 +52,10 @@ export default defineUserConfig({
                     {
                         text: 'Nginx',
                         link: 'nginx/'
+                    },
+                     {
+                        text: 'Git',
+                        link: 'git/'
                     }
                 ],
             }
@@ -112,6 +116,18 @@ export default defineUserConfig({
                             }
                         ],
                     },
+                    {
+                        text: 'Git',
+                        prefix: 'git/',
+                        link: 'git/',
+                        children: [
+                            {
+                                text: 'Git常用命令',
+                                link: 'git.md',
+                            }
+                        ],
+                    },
+
                 ],
             },
         ],
