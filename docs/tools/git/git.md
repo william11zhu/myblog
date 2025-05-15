@@ -3,8 +3,6 @@ lang: zh-CN
 title: Git常用命令
 ---
 
-## Git常用
-
 1. 同步仓库
 
 ```bash
